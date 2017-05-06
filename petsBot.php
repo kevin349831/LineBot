@@ -106,9 +106,9 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Content-Type: application/json; charser=UTF-8',
-    'X-Line-ChannelID: 1488339374',
-    'X-Line-ChannelSecret: 32495596a5032834da0f86b5fd5d0556',
-    'X-Line-Trusted-User-With-ACL: u5f0f02b8a7ee032d67bc6178cfef9f09'
+    'X-Line-ChannelID: ID',
+    'X-Line-ChannelSecret: CS',
+    'X-Line-Trusted-User-With-ACL: TUWA'
     ));
 $result = curl_exec($ch);
 echo  $result;
