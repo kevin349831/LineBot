@@ -1,5 +1,5 @@
 # petsBot
 
-petsBot 是可以跟LINE_BOT狗狗聊天
+you can talk with your Lint_Bot Dog
 
 
